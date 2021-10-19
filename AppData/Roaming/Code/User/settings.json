@@ -1,0 +1,197 @@
+{
+  // Disable emmet for certain filetype
+  "emmet.excludeLanguages": [
+    ".js",
+    ".md",
+    ".css"
+  ],
+  "files.associations": {
+    "*.js": "javascriptreact",
+    ".database": "json",
+    "*.vue": "vue",
+  },
+  "emmet.syntaxProfiles": {
+    "php": "html",
+    "blade": "html"
+  },
+  "emmet.includeLanguages": {
+    "php": "html",
+    "blade": "html"
+  },
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false,
+  "search.useIgnoreFiles": false,
+  // Editing
+  "editor.fontFamily": "Operator Mono",
+  "breadcrumbs.enabled": false,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 25,
+  "editor.fontWeight": "300",
+  "editor.fontLigatures": true,
+  "editor.folding": true,
+  "editor.lineNumbers": "off",
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "explorer.openEditors.visible": 0,
+  "editor.renderWhitespace": "selection",
+  "editor.cursorWidth": 5,
+  "editor.trimAutoWhitespace": true,
+  // Rulers and word wrap
+  "editor.rulers": [
+    120,
+  ],
+  "editor.mouseWheelZoom": true,
+  "html.format.wrapLineLength": 120,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "editor.wordBasedSuggestions": false,
+  "editor.multiCursorModifier": "alt",
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerBorder": false,
+  "editor.parameterHints.enabled": false,
+  // Scroll beyong last for better readability for last lines
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.scrollBeyondLastLine": true,
+  "editor.renderLineHighlight": "none",
+  "editor.cursorBlinking": "phase",
+  "terminal.integrated.fontFamily": "CaskaydiaCove NF",
+  "terminal.integrated.fontSize": 12,
+  // For prettier
+  "editor.formatOnSave": true,
+  "editor.snippetSuggestions": "top",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  // Use Pwsh 7
+  // Auto Save
+  "git.enabled": true,
+  "scm.diffDecorations": "none",
+  "[svg]": {
+    "editor.tabSize": 2
+  },
+  "explorer.autoReveal": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "workbench.settings.editor": "ui",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.showTabs": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.startupEditor": "none",
+  "workbench.editor.limit.value": 10,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "html.format.enable": false,
+  "files.trimTrailingWhitespace": true,
+  // Exclude Files Type from fuzzy finder
+  "search.exclude": {
+    "*.jpg": true,
+    "*.png": true,
+    "**/.cache": true,
+    "**/.git": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/tmp": true,
+    "**/vendor/": true
+  },
+  "files.exclude": {
+    "**.jpg": true,
+    "**.png": true,
+    "**/.cache": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/vendor": true
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  // Php Developpment
+  // "php.suggest.basic": false,
+  "intelephense.files.exclude": [
+    "**/.git/**",
+    "**/.svn/**",
+    "**/.hg/**",
+    "**/CVS/**",
+    "**/.DS_Store/**",
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/vendor/**/{Test,test,Tests,tests}/**"
+  ],
+  "[php]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+  },
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  // "phpfmt.php_bin": "php",
+  "phpfmt.php_bin": "php.exe",
+  "phpfmt.passes": [
+    "AlignPHPCode",
+    "AlignTypeHint",
+    "AddMissingParentheses",
+    "ConvertOpenTagWithEcho",
+    "DocBlockToComment",
+    "IndentTernaryConditions",
+    "JoinToImplode",
+    "PSR2KeywordsLowerCase",
+    "PSR2LnAfterNamespace",
+    "PSR2CurlyOpenNextLine",
+    "PSR2ModifierVisibilityStaticOrder",
+    "PSR2SingleEmptyLineAndStripClosingTag",
+    "ReindentSwitchBlocks",
+    "RemoveUseLeadingSlash",
+    "StripExtraCommaInArray",
+    "SpaceBetweenMethods",
+  ],
+  "phpfmt.exclude": [
+    "ReindentComments",
+    "StripNewlineWithinClassBody"
+  ],
+  "phpfmt.psr2": false,
+  // Testing zone
+  "files.autoSave": "onFocusChange",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.eol": "\n",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
+  "workbench.sideBar.location": "left",
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorCustomizations": {
+    "[Community Material Theme High Contrast]": {
+      "editor.wordHighlightBackground": "#1f2d30",
+      "editor.wordHighlightBorder": "#1f2d30",
+      "editor.wordHighlightStrongBackground": "#1f2d30",
+      "editor.wordHighlightStrongBorder": "#1f2d30",
+      "editorBracketMatch.border": "#1f2d30",
+      "editorBracketMatch.background": "#1f2d30",
+      "scrollbarSlider.background": "#ffffff22",
+      "editorOverviewRuler.bracketMatchForeground": "#0000",
+      "editorOverviewRuler.errorForeground": "#0000",
+      "editorOverviewRuler.warningForeground": "#0000",
+      "editorOverviewRuler.infoForeground": "#0000",
+      "editor.background": "#141e20"
+    }
+  },
+  "window.menuBarVisibility": "hidden",
+  "workbench.activityBar.visible": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.statusBar.visible": false,
+  // Testing zone
+  "php.validate.run": "onType",
+  "php.validate.enable": false,
+  "intelephense.diagnostics.undefinedTypes": false,
+  "security.workspace.trust.untrustedFiles": "open",
+}
